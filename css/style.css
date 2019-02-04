@@ -1,0 +1,78 @@
+body{
+    font-size: 18px !important;
+}
+.ksr{
+
+    font-size: 70px !important;
+    color:black; 
+    font-family: 'Merienda', cursive;
+     text-shadow: 0 0 3px #FF0000 !important;
+}
+h2{
+    font-family: 'Merienda', cursive;
+}
+h3{
+    padding: 10px;
+    margin:20px 20px 20px 20px !important;
+    text-align: center;
+     font-family: 'Merienda', cursive;
+}
+#foo{
+    margin-top: 30px;
+    color: white;
+}
+.head1{
+    font-size: 50px;
+  font-family: 'Merienda', cursive;
+         text-shadow: 0 0 3px #FF0000 !important; 
+}
+#event{
+    color:blue;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+footer{
+    height: 350px;
+    background-color: #222;
+}
+footer p{
+    font-family: sans-serif;
+    color: white !important;
+    margin-left: 50px;    
+}
+footer h3{
+    color: white !important;
+}
+#but{
+    margin-top: 10px !important;
+    background-color: red !important;
+    color: white !important;
+    font-size: 20px !important;
+    border-radius: 5px !important;
+    padding: 10px;
+    text-align: center;
+    
+}
+.head2{
+    display: inline-block !important;
+}
+@media only screen and (max-width: 600px) {
+  .ksr{
+    font-size: 25px !important;
+    }
+    footer{
+        height: 700px;
+        
+    }footer h3{
+        font-size: 20px !important;
+    }.head1{
+        font-size: 30px !important;
+    }h2{
+        font-size: 25px !important;
+    }
+    h3{
+        font-size: 20px !important;
+    }
+}
